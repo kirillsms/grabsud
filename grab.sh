@@ -1,3 +1,3 @@
 #!/bin/sh
 phantomjs sud.js > cmd.sql
-sqlite -init readsql sud.sqlite
+sqlite3 -init readsql sud.sqlite
