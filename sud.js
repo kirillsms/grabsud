@@ -1,6 +1,4 @@
 
-// Find pizza in Mountain View using Yelp
-
 var page_explore = require('webpage').create(),
     url_explore = 'http://173.mo.msudrf.ru/modules.php?name=sud_delo&op=rd&delo_table=G1_DOCUMENT&delo_id=1540005&G1_DOCUMENT__CASE_NUMBERSS=&G1_DOCUMENT__JUDGE=&G1_DOCUMENT__CATEGORY=%25CF%25F0%25EE%25F7%25E8%25E5%2520%25E8%25F1%25EA%25EE%25E2%25FB%25E5%2520%25E4%25E5%25EB%25E0&G1_DOCUMENT__RESULT_DATE1D=&G1_DOCUMENT__RESULT_DATE2D=&G1_DOCUMENT__LOAD_DATE1D=&G1_DOCUMENT__LOAD_DATE2D=&Submit=%CD%E0%E9%F2%E8';
 /*
@@ -26,8 +24,6 @@ page_explore.open(url_explore, function (status) {
 */
 
 
-
-// Find pizza in Mountain View using Yelp
 
 var page = require('webpage').create(),
     url = 'http://173.mo.msudrf.ru/modules.php?name=sud_delo&op=rd&delo_table=G1_DOCUMENT&delo_id=1540005&G1_DOCUMENT__CASE_NUMBERSS=&G1_DOCUMENT__JUDGE=&G1_DOCUMENT__CATEGORY=%25CF%25F0%25EE%25F7%25E8%25E5%2520%25E8%25F1%25EA%25EE%25E2%25FB%25E5%2520%25E4%25E5%25EB%25E0&G1_DOCUMENT__RESULT_DATE1D=&G1_DOCUMENT__RESULT_DATE2D=&G1_DOCUMENT__LOAD_DATE1D=&G1_DOCUMENT__LOAD_DATE2D=&Submit=%CD%E0%E9%F2%E8';
